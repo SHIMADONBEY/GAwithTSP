@@ -66,6 +66,7 @@ public class TourWithGA extends Tour {
 			p_m = r2;
 		}
 
+		super.getMap().calcEdge();
 		int length = super.getMap().getCityCount();
 
 		Individuals children;
